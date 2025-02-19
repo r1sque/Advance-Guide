@@ -1,0 +1,22 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+
+body {
+  background-color: rgba(20, 21, 28, 1);
+  color: rgba(255, 255, 255, 0.9);
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  cursor: pointer;
+}
+
+.bg-gradient {
+  background-image: linear-gradient(to right top, #14151c, #181920, #1d1e25, #212229, #26272e);
+}
+
+.border-color {
+  border-color: hsl(0, 0%, 22%);
+}
