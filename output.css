@@ -635,6 +635,9 @@
   .w-\[40\%\] {
     width: 40%;
   }
+  .w-fit {
+    width: fit-content;
+  }
   .w-full {
     width: 100%;
   }
