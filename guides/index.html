@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Advance Guide</title>
     <link href="../output.css" rel="stylesheet">
-    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" type="image/x-icon" href="/Advance-Guide/favicon.ico">
 </head>
 
 <body class="bg-[#14151c] flex h-screen">
@@ -36,7 +36,7 @@
         <header class="bg-[#26272e] flex justify-center items-center p-2">
 
             <div class="flex bg-[#1d1e25] border border-white/5 rounded-md w-[40%] py-2 px-3 space-x-2">
-                <input class="w-full pl-1 placeholder:text-slate-400 focus:outline-none" placeholder="Search Guides" />
+                <input class="w-full pl-1 focus:outline-none" placeholder="Search Guides" />
                     
                 <button class="bg-[#7489ac] flex items-center rounded p-2 transition-colors duration-400 hover:bg-[#8ea7d1]">
                     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-4 h-4">
@@ -50,32 +50,76 @@
         <!-- Main Content -->
         <main class="flex-1 h-screen flex flex-col items-center space-y-10 p-10">
 
-            <div class="flex flex-col max-w-xl mx-auto text-center space-y-4">
+            <div class="flex flex-col max-w-3xl mx-auto text-center space-y-4">
 
                 <h1 class="text-5xl font-bold">Guides</h1>
 
-                <p class="text-gray-400 text-xl">Comprehensive guides, tools, and resources to enhance your Advance experience.</p>
+                <p class="text-gray-400 text-xl">Comprehensive guide on how to properly use Advance and step-by-step tutorials on how fix all software/hardware issues.</p>
 
             </div>
 
-            <div class="grid grid-cols-1 h-[300px] md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
             
-                <div class="bg-[#26272e] p-6 rounded space-y-6">
-                    <h1 class="text-3xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Website.</h1>
+                <div class="bg-[#26272e] flex flex-col justify-between p-6 rounded space-y-6 feature-card">
 
-                    <p class="text-gray-400 mt-2">Step-by-step tutorials on how to fix all hardware issues</p>
+                    <span class="flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] uppercase bg-[#7489ac]/20 rounded-sm">
+                        Instruction
+                    </span>
+
+                    <h1 class="text-2xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Instruction Guide</h1>
+
+                    <p class="text-gray-400 mt-2">Step-by-step tutorials on how to properly use Advance-cheat.</p>
+
+                    <a href="">
+                        <button class="inline-flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] capitalize bg-[#7489ac]/20 rounded-sm gap-2 feature-button">
+                            View Instruction Guide
+                            <svg class="h-5 w-5 fill-[#a2bae2]" viewBox="0 -960 960 960">
+                                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
             
-                <div class="bg-[#26272e] p-6 rounded space-y-6">
-                    <h1 class="text-3xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Website.</h1>
+                <div class="bg-[#26272e] flex flex-col justify-between p-6 rounded space-y-6 feature-card">
 
-                    <p class="text-gray-400 mt-2">Essential utilities and resources</p>
+                    <span class="flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] uppercase bg-[#7489ac]/20 rounded-sm">
+                        Troubleshooting
+                    </span>
+
+                    <h1 class="text-2xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Troubleshooting Guide</h1>
+
+                    <p class="text-gray-400 mt-2">A guide covering all the most common issues encountered.</p>
+
+                    <a href="">
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] capitalize bg-[#7489ac]/20 rounded-sm gap-2 feature-button">
+                            View Troubleshooting Guide
+                            <svg class="h-5 w-5 fill-[#a2bae2]" viewBox="0 -960 960 960">
+                                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
             
-                <div class="bg-[#26272e] p-6 rounded space-y-6">
-                    <h1 class="text-3xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Website.</h1>
+                <div class="bg-[#26272e] flex flex-col justify-between p-6 rounded space-y-6 feature-card">
 
-                    <p class="text-gray-400 mt-2">Active Discord community</p>
+                    <span class="flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] uppercase bg-[#7489ac]/20 rounded-sm">
+                        Tools
+                    </span>
+                    
+                    <h1 class="text-2xl font-bold bg-gradient-to-r from-[#8ea7d1] to-white text-transparent bg-clip-text leading-tight">Tools Library</h1>
+
+                    <p class="text-gray-400 mt-2">Library of essential tools and resources for troubleshooting</p>
+
+                    <a href="">
+                        <button
+                            class="inline-flex items-center justify-center px-4 py-1 font-bold text-[#8ea7d1] capitalize bg-[#7489ac]/20 rounded-sm gap-2 feature-button">
+                            View Tools Library
+                            <svg class="h-5 w-5 fill-[#a2bae2]" viewBox="0 -960 960 960">
+                                <path d="m560-240-56-58 142-142H160v-80h486L504-662l56-58 240 240-240 240Z" />
+                            </svg>
+                        </button>
+                    </a>
                 </div>
             
             </div>
