@@ -8,6 +8,21 @@ body {
   font-family: 'Inter', sans-serif;
 }
 
+/* body::-webkit-scrollbar {
+  width: 10px;
+}
+
+body::-webkit-scrollbar-track {
+  background: transparent;
+  border-radius: 9px;
+}
+
+body::-webkit-scrollbar-thumb {
+  background: #7489ac;
+  border-radius: 9px;
+  border: 2px solid #14151c;
+} */
+
 button {
   cursor: pointer;
 }
