@@ -19,6 +19,22 @@ button {
   border-color: hsl(0, 0%, 22%);
 }
 
+.feature-card {
+  border: 1px solid transparent; 
+  transition: border 0.5s ease, box-shadow 0.5s ease;
+}
+.feature-card:hover {
+  border: 1px solid rgba(116, 137, 172, 0.7); 
+  box-shadow: 0 0 30px 2px rgba(142, 167, 209, 0.5); 
+}
+
+.feature-button {
+  transition: transform 0.5s ease;
+}
+.feature-button:hover {
+  transform: scale(1.05);
+}
+
 .button-pulse {
   animation: buttonPulse 2s infinite;
 }
