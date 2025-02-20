@@ -1,8 +1,6 @@
 @import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
-
-
 body {
   background-color: rgba(20, 21, 28, 1);
   color: rgba(255, 255, 255, 0.9);
@@ -19,4 +17,14 @@ button {
 
 .border-color {
   border-color: hsl(0, 0%, 22%);
+}
+
+.button-pulse {
+  animation: buttonPulse 2s infinite;
+}
+
+@keyframes buttonPulse {
+  0% { box-shadow: 0 0 0 0 rgba(142, 167, 209, 0.4); } 
+  70% { box-shadow: 0 0 0 10px rgba(142, 167, 209, 0); }
+  100% { box-shadow: 0 0 0 0 rgba(142, 167, 209, 0); }
 }
