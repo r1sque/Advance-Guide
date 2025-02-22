@@ -645,6 +645,12 @@
   .h-\[250px\] {
     height: 250px;
   }
+  .h-\[350px\] {
+    height: 350px;
+  }
+  .h-\[450px\] {
+    height: 450px;
+  }
   .h-fit {
     height: fit-content;
   }
@@ -1238,6 +1244,16 @@
   .lg\:row-start-3 {
     @media (width >= 64rem) {
       grid-row-start: 3;
+    }
+  }
+  .lg\:h-1 {
+    @media (width >= 64rem) {
+      height: calc(var(--spacing) * 1);
+    }
+  }
+  .lg\:h-1\/2 {
+    @media (width >= 64rem) {
+      height: calc(1/2 * 100%);
     }
   }
   .lg\:h-full {
