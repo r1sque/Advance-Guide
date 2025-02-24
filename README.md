@@ -31,6 +31,9 @@ Advance-Guide
 │   └── tools
 │       └── index.html           # Entry point HTML for the tools section.
 │
+├── credits
+│   └── index.html               # HTML for the credits section.
+│
 ├── src
 │   ├── input.css                # Tailwind CSS source file (custom styles).
 │   └── output.css               # Compiled CSS file for styling the app.
