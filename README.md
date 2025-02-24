@@ -46,9 +46,11 @@ Advance-Guide
 
 - [x] Main design
 - [x] Add Tailwind CSS for styling
+   - [ ] add more styling (e.i. add more animation like on page load or hover or focus)
 - [x] Make the other pages
 - [x] Fixe page links
-- [ ] Make search input work
+- [x] Make search input work
+   - [ ] make it so when it redirects to the correct page is acts as if you hover the featured card
 - [ ] Add previous and next button to all the guide page for easier navigation
 - [ ] Add phone support
 
