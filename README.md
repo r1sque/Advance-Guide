@@ -48,6 +48,8 @@ Advance-Guide
 - [x] Add Tailwind CSS for styling
 - [x] Make the other pages
 - [x] Fixe page links
+- [ ] Make search input work
+- [ ] Add previous and next button to all the guide page for easier navigation
 - [ ] Add phone support
 
 ## Getting Started
