@@ -85,7 +85,6 @@ const searchResults = document.getElementById("searchResults");
 if (siteSearch && searchResults) {
   siteSearch.addEventListener("input", (e) => {
     const searchTerm = e.target.value.toLowerCase().trim();
-    console.log(`Search term: ${searchTerm}`);
 
     if (searchTerm.length < 2) {
       searchResults.classList.add("hidden");
