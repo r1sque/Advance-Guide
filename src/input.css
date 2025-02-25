@@ -5,8 +5,7 @@
 body {
   background-color: rgba(20, 21, 28, 1);
   color: rgba(255, 255, 255, 0.9);
-  font-family: 'Nunito', serif;
-  font-weight: 600;
+  font-family: 'Inter', sans-serif;
 }
 
 /* body::-webkit-scrollbar {
